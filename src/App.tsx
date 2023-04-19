@@ -4,10 +4,10 @@ import ScoreBoard from './components/ScoreBoard/ScoreBoard';
 function App() {
   return (
     <div>
-      <h1>New Game</h1>
-      
-      <h1>Score Board</h1>
-      
+      <h1>Create New Game</h1>
+      <GameForm />
+      <h1>Live Football World Cup Score Board</h1>
+      <ScoreBoard />
      </div>
   );
 }

@@ -1,7 +1,7 @@
 import gamesReducer, { createGame, updateGameScore, finishGame, deleteFinishedGame, deleteGame } from './gamesSlice';
 
 describe('games reducer', () => {
-  let state = { games: [], finishedGames: [] };
+  let state:any = { games: [], finishedGames: [] };
 
   it('should handle initial state', () => {
     expect(gamesReducer(undefined, { type: 'unknown' })).toEqual(state);
