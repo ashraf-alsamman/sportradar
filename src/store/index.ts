@@ -1,12 +1,12 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import gamesReducer from '../features/games/gamesSlice';
+import gamesReducer from '../features/gamesSlice';
 
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['games'],
+  whitelist: ['games','finishedGames'],
 };
 
 const persistedReducer = persistReducer(persistConfig, gamesReducer);

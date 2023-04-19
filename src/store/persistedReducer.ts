@@ -1,6 +1,6 @@
 import storage from 'redux-persist/lib/storage';
 import { persistReducer } from 'redux-persist';
-import gamesReducer from '../features/games/gamesSlice';
+import gamesReducer from '../features/gamesSlice';
 
 const gamesPersistConfig = {
   key: 'games',

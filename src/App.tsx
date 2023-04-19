@@ -1,14 +1,16 @@
-import GameForm from './components/GameForm/GameForm';
-import ScoreBoard from './components/ScoreBoard/ScoreBoard';
- 
+import GameForm from './components/GameForm';
+import ScoreBoard from './components/ScoreBoard';
+
 function App() {
   return (
-    <div>
-      <h1>Create New Game</h1>
+    <div className="container">
+      <br />
+      <h5 className='font-weight-bold'>Sportradar Task</h5><hr />
+      <h6 className='font-weight-bold'>Create New Game</h6>
       <GameForm />
-      <h1>Live Football World Cup Score Board</h1>
       <ScoreBoard />
-     </div>
+      <hr />
+    </div>
   );
 }
 
