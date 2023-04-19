@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { createGame, updateGameScore } from "../features/gamesSlice";
 
@@ -46,7 +46,7 @@ const GameForm: React.FC<GameFormProps> = ({
     }else{
       setValidateForm(true);
     }
-
+// eslint-disable-next-line
   }, [home, away]);
 
   const validateTeamNames = (
@@ -79,10 +79,7 @@ const GameForm: React.FC<GameFormProps> = ({
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const errorMessage = validateTeamNames(home, away);
-
-
-
+ 
     if (gameId) {
       dispatch(updateGameScore({ id: gameId, homeScore, awayScore }));
     } else {
@@ -95,7 +92,7 @@ const GameForm: React.FC<GameFormProps> = ({
 
   return (
     <>
-      {error != "" && (
+      {error !== "" && (
         <div
           className="w-100 p-3 alert alert-danger shadow-soft mb-4 mb-lg-2 mb-md-2 mb-sm-2 mb-xs-2 animated-element"
           role="alert"
