@@ -9,7 +9,7 @@ const TruncatedText: FC<TruncatedTextProps> = ({ text, maxLength }) => {
   const truncatedText = text.slice(0, maxLength);
 
   return (
-    <>{truncatedText}</>
+    <p>{truncatedText}</p>
   );
 };
 

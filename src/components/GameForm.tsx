@@ -106,9 +106,9 @@ const GameForm: React.FC<GameFormProps> = ({
       <form onSubmit={handleSubmit}>
         
           <>
-            <div className="input-group mb-4 w-100 p-3 ">
+            <div className="input-group mb-4 w-100 p-3 row">
 
-              <div className="input-group mb-4 w-50 p-3 ">
+              <div className="input-group mb-4 p-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <input className="form-control" placeholder="Home Team" value={home} onChange={(e) => setHome(e.target.value)} id="exampleInputIcon2" aria-label="Input group" type="text" />
                 <div className="input-group-append"> <span className="input-group-text"> <span className="fas fa-home"></span> </span> </div>
 
@@ -117,7 +117,7 @@ const GameForm: React.FC<GameFormProps> = ({
               </div>
 
 
-              <div className="input-group mb-4 w-50 p-3 ">
+              <div className="input-group mb-4 p-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <input className="form-control" placeholder="Away Team" value={away} onChange={(e) => setAway(e.target.value)} id="exampleInputIcon2" aria-label="Input group" type="text" />
                 <div className="input-group-append"> <span className="input-group-text"> <span className="fas fa-paper-plane"></span> </span> </div>
 

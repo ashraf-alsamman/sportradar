@@ -29,10 +29,10 @@ const GameCard: React.FC<GameCardProps> = ({
 
   return (
     <>
-      <div className="input-group mb-4 w-100 p-3 row">
+      <div className="input-group  w-100 p-3 row">
 
         <div className="input-group w-100 p-3 ">
-          <div className=' text-center font-weight-bold  col-lg-12 col-md-12 col-sm-12 col-xs-12 m-2 result'>
+          <div className=' text-center font-weight-bold  col-lg-12 col-md-12 col-sm-12 col-xs-12  result'>
             <div className='row'>
               <div className='col-5'><TruncatedText text={homeTeam} maxLength={5} /></div>
               <div className='col-2'> vs </div>
@@ -45,7 +45,7 @@ const GameCard: React.FC<GameCardProps> = ({
               <div className='col-5'>  {awayScore} </div>
             </div>
           </div>
-          <div className='input-group mb-4 w-100 p-3'>
+          <div className='input-group w-100 p-3'>
 
           <div className="input-group-append"> <span className="input-group-text"> <span className="fas fa-home"></span> </span> </div>
           <input className="form-control" type="number" min="0" max="200" value={newHomeScore}
