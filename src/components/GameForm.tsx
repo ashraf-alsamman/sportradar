@@ -53,7 +53,9 @@ const GameForm: React.FC<GameFormProps> = ({
     homeTeam: string,
     awayTeam: string
   ): string | null => {
-    const regex = /^[a-zA-Z0-9._-]+$/;
+
+    const regex: RegExp = /^[-a-zA-Z0-9._ ]+$/;
+
     setError("");
 
     if (home.trim() === "" || away.trim() === "") {
