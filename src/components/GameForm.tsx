@@ -106,7 +106,7 @@ const GameForm: React.FC<GameFormProps> = ({
       <form onSubmit={handleSubmit}>
         
           <>
-            <div className="input-group mb-4 w-100 p-3 row">
+            <div className="input-group mb-4 w-100 p-3 row m-0">
 
               <div className="input-group mb-4 p-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <input className="form-control" placeholder="Home Team" value={home} onChange={(e) => setHome(e.target.value)} id="exampleInputIcon2" aria-label="Input group" type="text" />

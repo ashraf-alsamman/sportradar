@@ -50,7 +50,7 @@ const ScoreBoard: React.FC = () => {
 
           <h6 className='font-weight-bold'>Summary (finished matches)</h6>
           {finishedGames.map((game, index) => (
-            <div key={game.id}>
+            <div key={game.id} className='mb-4'>
               <div className="input-group w-100 p-3">
                 <div className="scoreboard">
                   <div className='row text-center font-weight-bold  '>
@@ -72,7 +72,6 @@ const ScoreBoard: React.FC = () => {
               <button className="btn btn-outline-danger btn-sm col" onClick={() => handleDeleteFinishedGame(game.id)} type="button">
                 <span className="mr-1"><span className="fab fas fa-trash"></span></span>Delete
               </button>
-              <hr />
             </div>
           ))}
         </div>

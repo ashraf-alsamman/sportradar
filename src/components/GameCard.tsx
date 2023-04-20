@@ -29,7 +29,7 @@ const GameCard: React.FC<GameCardProps> = ({
 
   return (
     <>
-      <div className="input-group  w-100 p-3 row">
+      <div className="input-group w-100 p-3 row m-0">
 
         <div className="input-group w-100 p-3 ">
           <div className=' text-center font-weight-bold  col-lg-12 col-md-12 col-sm-12 col-xs-12  result'>
