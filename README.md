@@ -7,7 +7,7 @@
 ## Screenshot:
 ![Screenshot](screenshot.png "sport radar")
 
-### Tools
+### Technologies used
 - **[ReactJs](https://reactjs.org/)**
 - **[Redux](https://redux.js.org/)**
 - **[Redux-toolkit](https://redux-toolkit.js.org/)**
@@ -17,6 +17,7 @@
   
 # How to run 
 - Run frontend (react js) project
+
   `npm install`
   `npm start`
   
