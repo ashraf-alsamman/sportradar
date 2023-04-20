@@ -17,14 +17,12 @@
   
 # How to run 
 - Run frontend (react js) project
-
   `npm install`
   `npm start`
   
   - Run tests
   `npm test`
 
-Try localhost/3000
 
 
 
