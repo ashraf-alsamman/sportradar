@@ -15,10 +15,7 @@
 - **[redux-persist](https://www.npmjs.com/package/redux-persist)**
   
   
-# How to run
- 
-- `git clone https://github.com/ashraf-alsamman/webconia-frontend`
-- Edit config/confige.js api  
+# How to run 
 - Run frontend (react js) project
   `npm install`
   `npm start`
