@@ -3,11 +3,11 @@
 
 
 ## Demo
-- You can check the live demo from here [fronend link]
+- You can check the live demo from here https://dreamy-tulumba-a025b3.netlify.app/
 ## Screenshot:
 ![Screenshot](screenshot.png "sport radar")
 
-### Tools
+### Technologies used
 - **[ReactJs](https://reactjs.org/)**
 - **[Redux](https://redux.js.org/)**
 - **[Redux-toolkit](https://redux-toolkit.js.org/)**
@@ -15,11 +15,9 @@
 - **[redux-persist](https://www.npmjs.com/package/redux-persist)**
   
   
-# How to run
- 
-- `git clone https://github.com/ashraf-alsamman/webconia-frontend`
-- Edit config/confige.js api  
+# How to run 
 - Run frontend (react js) project
+
   `npm install`
   `npm start`
   
