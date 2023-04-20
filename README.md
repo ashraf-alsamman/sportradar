@@ -3,7 +3,7 @@
 
 
 ## Demo
-- You can check the live demo from here [fronend link]
+- You can check the live demo from here https://dreamy-tulumba-a025b3.netlify.app/
 ## Screenshot:
 ![Screenshot](screenshot.png "sport radar")
 
