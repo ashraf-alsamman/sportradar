@@ -81,3 +81,7 @@
 .btn:hover{
   box-shadow: none;
 }
+
+.result{
+  font-size: 18px;
+}

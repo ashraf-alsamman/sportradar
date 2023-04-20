@@ -29,10 +29,10 @@ const GameCard: React.FC<GameCardProps> = ({
 
   return (
     <>
-      <div className="input-group mb-4 w-100 p-3">
+      <div className="input-group mb-4 w-100 p-3 row">
 
-        <div className="input-group w-100 p-3">
-          <div className='row text-center font-weight-bold col-6'>
+        <div className="input-group w-100 p-3 ">
+          <div className=' text-center font-weight-bold  col-lg-12 col-md-12 col-sm-12 col-xs-12 m-2 result'>
             <div className='row'>
               <div className='col-5'><TruncatedText text={homeTeam} maxLength={5} /></div>
               <div className='col-2'> vs </div>
@@ -45,6 +45,7 @@ const GameCard: React.FC<GameCardProps> = ({
               <div className='col-5'>  {awayScore} </div>
             </div>
           </div>
+          <div className='input-group mb-4 w-100 p-3'>
 
           <div className="input-group-append"> <span className="input-group-text"> <span className="fas fa-home"></span> </span> </div>
           <input className="form-control" type="number" min="0" max="200" value={newHomeScore}
@@ -54,11 +55,11 @@ const GameCard: React.FC<GameCardProps> = ({
           <input className="form-control" type="number" min="0" max="200" value={newAwayScore}
             onChange={(e) => setNewAwayScore(Number(e.target.value))}
           />
-
+          </div>
         </div>
 
 
-        <div className='row input-group w-100 p-1'>
+        <div className='row input-group w-100 p-1 col-lg-12 col-md-12 col-sm-12 col-xs-12 '>
           <button className="btn btn-outline-secondary btn-sm col m-1" onClick={handleUpdateClick} type="button">
             <span className="mr-1"><span className="fas fa-edit"></span></span>Update
           </button>

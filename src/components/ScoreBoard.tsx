@@ -30,7 +30,7 @@ const ScoreBoard: React.FC = () => {
       <hr />
 
       <div className='row'>
-        <div className='col'>
+        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 '>
           <h6 className='font-weight-bold'>Ongoing Matches</h6>
 
           {games.map((game, index) => (
@@ -46,7 +46,7 @@ const ScoreBoard: React.FC = () => {
             />
           ))}
         </div>
-        <div className='col'>
+        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 '>
 
           <h6 className='font-weight-bold'>Summary (finished matches)</h6>
           {finishedGames.map((game, index) => (
